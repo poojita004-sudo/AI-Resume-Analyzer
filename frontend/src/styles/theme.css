@@ -1,0 +1,45 @@
+:root {
+  /* Color Palette - Dark Navy Theme */
+  --bg-navy-darker: #060911;
+  --bg-navy: #0A0D14;
+  --bg-navy-light: #111726;
+  --bg-card: rgba(17, 23, 38, 0.75);
+  --bg-card-hover: rgba(23, 31, 51, 0.85);
+  
+  /* Neon Accents - Purple & Blue */
+  --purple-glow: #8B5CF6;
+  --purple-vibrant: #7C3AED;
+  --purple-light: #A855F7;
+  
+  --blue-glow: #3B82F6;
+  --blue-vibrant: #2563EB;
+  --cyan-vibrant: #06B6D4;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%);
+  --gradient-purple: linear-gradient(135deg, #A855F7 0%, #6366F1 100%);
+  --gradient-blue: linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%);
+  --gradient-glow: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(59, 130, 246, 0.05) 50%, transparent 100%);
+  --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.02) 100%);
+
+  /* Text Colors */
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  
+  /* Borders & Shadows */
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-purple-glow: rgba(139, 92, 246, 0.4);
+  --border-blue-glow: rgba(59, 130, 246, 0.4);
+  --shadow-purple-lg: 0 10px 30px -10px rgba(139, 92, 246, 0.4);
+  --shadow-blue-lg: 0 10px 30px -10px rgba(59, 130, 246, 0.4);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+
+  /* Radius & Transitions */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
